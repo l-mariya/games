@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Кот выглядывает из-за чашки кофе">
+  <circle cx="120" cy="124" r="108" fill="#F8E2D8"/>
+  <circle cx="40" cy="58" r="6" fill="#4E8F6C" opacity=".7"/>
+  <circle cx="206" cy="70" r="5" fill="#F2C14E"/>
+  <circle cx="200" cy="188" r="7" fill="#D9704F" opacity=".5"/>
+  <path d="M30 170l6 6m0-6l-6 6" stroke="#4E8F6C" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- steam -->
+  <g fill="none" stroke="#C9B8A6" stroke-width="5" stroke-linecap="round">
+    <path d="M80 104c-9-10 9-18 0-30"/>
+    <path d="M102 100c-9-10 9-18 0-30"/>
+  </g>
+
+  <!-- cat behind the cup -->
+  <g fill="#3F3632">
+    <path d="M116 88 L120 46 L146 70 Z"/>
+    <path d="M160 70 L186 46 L190 88 Z"/>
+    <ellipse cx="153" cy="104" rx="42" ry="38"/>
+  </g>
+  <path d="M123 76 L125 58 L137 70 Z" fill="#E9A48E"/>
+  <path d="M169 70 L181 58 L183 76 Z" fill="#E9A48E"/>
+  <ellipse cx="138" cy="100" rx="7" ry="8" fill="#FBF6EF"/>
+  <ellipse cx="168" cy="100" rx="7" ry="8" fill="#FBF6EF"/>
+  <ellipse cx="139" cy="101" rx="3" ry="6" fill="#2A2623"/>
+  <ellipse cx="169" cy="101" rx="3" ry="6" fill="#2A2623"/>
+  <path d="M149 111h8l-4 5z" fill="#E9A48E"/>
+
+  <!-- cup -->
+  <path d="M60 140h-10a18 18 0 0 0 0 36h10" fill="none" stroke="#D9704F" stroke-width="10"/>
+  <rect x="56" y="118" width="116" height="96" rx="22" fill="#D9704F"/>
+  <rect x="56" y="118" width="116" height="14" rx="7" fill="#C2603F"/>
+  <path d="M114 176c-8-6-14-11-14-17a7 7 0 0 1 14-2 7 7 0 0 1 14 2c0 6-6 11-14 17z" fill="#FBF6EF"/>
+
+  <!-- paws on the rim -->
+  <ellipse cx="138" cy="120" rx="11" ry="7" fill="#3F3632"/>
+  <ellipse cx="166" cy="120" rx="11" ry="7" fill="#3F3632"/>
+</svg>
