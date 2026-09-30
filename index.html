@@ -2,27 +2,50 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Игра-подарок</title>
-  <meta name="description" content="Персональная мини-игра-подарок: пройди вопросы и получи поздравление.">
-  <meta name="theme-color" content="#FBF6EF">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Игра-подарок">
-  <meta property="og:description" content="Пройди 5 вопросов и получи сюрприз в конце.">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Игры-подарки — примеры</title>
+  <meta name="description" content="Персональные мини-игры в подарок: открываются по ссылке на телефоне.">
+  <link rel="icon" href="masha/assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Unbounded:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #FBF6EF; --surface: #FFFFFF; --ink: #2A2623; --muted: #7A716A; --line: #EDE4D8; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink);
+      font: 600 17px/1.5 'Manrope', system-ui, sans-serif;
+      display: flex; justify-content: center;
+    }
+    main { width: 100%; max-width: 520px; padding: 40px 16px; display: grid; gap: 14px; align-content: start; }
+    h1 { margin: 0; font: 700 clamp(26px, 7vw, 34px)/1.15 'Unbounded', system-ui, sans-serif; }
+    p { margin: 0 0 10px; color: var(--muted); }
+    a.game {
+      display: flex; align-items: center; gap: 14px; padding: 18px;
+      background: var(--surface); border-radius: 22px; color: inherit; text-decoration: none;
+      box-shadow: 0 1px 0 var(--line), 0 20px 40px -28px rgba(70, 45, 25, .35);
+      transition: transform .15s;
+    }
+    a.game:active { transform: scale(.98); }
+    a.game img { width: 64px; height: 64px; flex: none; }
+    a.game b { display: block; font-size: 18px; }
+    a.game small { color: var(--muted); font-size: 15px; }
+  </style>
 </head>
 <body>
-  <main id="app" class="app" aria-live="polite">
-    <noscript><p class="card">Для игры нужен включённый JavaScript.</p></noscript>
-  </main>
-  <footer class="footer" id="footer"></footer>
+  <main>
+    <h1>Игры-подарки</h1>
+    <p>Персональная мини-игра по ссылке: вопросы о человеке, шутки, которые понятны только своим, и поздравление в финале.</p>
 
-  <script src="config.js"></script>
-  <script src="script.js"></script>
+    <a class="game" href="masha/">
+      <img src="masha/assets/hero.svg" alt="">
+      <span><b>Как хорошо ты знаешь Машу?</b><small>День рождения подруги</small></span>
+    </a>
+
+    <a class="game" href="anniversary/">
+      <img src="anniversary/assets/hero.svg" alt="">
+      <span><b>Как хорошо ты помнишь наш год?</b><small>Годовщина отношений</small></span>
+    </a>
+  </main>
 </body>
 </html>

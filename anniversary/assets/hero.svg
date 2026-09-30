@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Велосипед с воздушным шариком-сердцем">
+  <circle cx="120" cy="124" r="108" fill="#DCEBEA"/>
+  <circle cx="44" cy="70" r="6" fill="#E07A5F" opacity=".6"/>
+  <circle cx="204" cy="176" r="7" fill="#3F8A5A" opacity=".5"/>
+  <circle cx="58" cy="206" r="4" fill="#F2C14E"/>
+  <path d="M198 92l6 6m0-6l-6 6" stroke="#2F6F73" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- balloon -->
+  <path d="M164 104c-10-18 12-26 4-48" fill="none" stroke="#667174" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M168 60c-14-10-26-19-26-31a13 13 0 0 1 26-4 13 13 0 0 1 26 4c0 12-12 21-26 31z" fill="#E07A5F"/>
+  <path d="M152 26a6 6 0 0 1 8-4" fill="none" stroke="#FBF6EF" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <!-- ground -->
+  <path d="M40 196h160" stroke="#B9CCC8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- wheels -->
+  <g fill="none" stroke="#1F2A2C" stroke-width="7">
+    <circle cx="74" cy="160" r="33"/>
+    <circle cx="170" cy="160" r="33"/>
+  </g>
+  <g fill="#1F2A2C"><circle cx="74" cy="160" r="4"/><circle cx="170" cy="160" r="4"/></g>
+
+  <!-- frame -->
+  <g fill="none" stroke="#2F6F73" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 160 L116 160 L102 116 Z"/>
+    <path d="M102 116 L156 116 L116 160"/>
+    <path d="M156 116 L170 160"/>
+    <path d="M156 116 L150 100 L166 98"/>
+  </g>
+  <path d="M92 110h22" stroke="#1F2A2C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M102 116 L100 110" stroke="#2F6F73" stroke-width="6"/>
+</svg>
